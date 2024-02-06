@@ -1,3 +1,8 @@
+Focus on Engineering side more ,
+Dont start coding right away 
+First make the possible test cases that you might come up with then start coding . 
+
+
 Mod: 
 Whenever we mod by a number by n , the result is between 0-(n-1)
 168654%10 ~ 4 [the result is between 0 to 10]
