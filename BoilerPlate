@@ -1,0 +1,8 @@
+#include <iostream>
+#include <bits/c++.h>
+using namespaces std
+
+int_32 main(){
+  cout<<"55"<<endl;
+return 0;
+}
