@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+class Cookies{
+private: 
+    string color;
+
+public:
+   Cookies(string color){
+                        this->color=color;
+                        }
+   string getColor(){
+        cout<<"\n"<<this->color;
+        return this->color;
+    }
+  void setColor(string newColor){
+        this->color=newColor;
+        cout<<"Color Set to: "<<newColor;
+    }
+
+}
