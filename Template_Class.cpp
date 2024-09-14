@@ -21,6 +21,12 @@ public:
             cout<< arr[i]<<endl;
         }
     }
-
-
 };
+
+        int main(){
+            cout<<"hello";
+            makeDynamicArrays obj1= makeDynamicArrays<int>(5);
+            obj1.iterate();
+            obj1.show();
+        
+        }
