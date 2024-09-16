@@ -42,3 +42,8 @@ ComplexNumber Add(ComplexNumber num1,ComplexNumber num2){
     return result;
 }
 
+int main(){
+    ComplexNumber A(5,5),B(7,9);
+    A.display();
+    B.display();
+    ComplexNumber C;
