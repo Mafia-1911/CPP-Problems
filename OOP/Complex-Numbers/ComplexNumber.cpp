@@ -32,3 +32,13 @@ ComplexNumber add(ComplexNumber num2){
         return result;
     }
 };
+
+///Making a friend Function
+ComplexNumber Add(ComplexNumber num1,ComplexNumber num2){
+    ComplexNumber result;
+    result.real=num1.real+num2.real;
+    result.imaginary=num1.imaginary+num2.imaginary;
+    cout<<"Your Added Number is : "<<result.real<<"+"<<result.imaginary<<"i";
+    return result;
+}
+
