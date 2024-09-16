@@ -19,3 +19,16 @@ public:
         cout<<"Your Number is: "<<real<<"+"<<imaginary<<"i"<<endl;
     }
     //A method to add two complex numbers and returns a complex number as well
+ComplexNumber add(ComplexNumber num2){
+        ComplexNumber result;
+        result.real=this->real+num2.real;
+        result.imaginary=this->imaginary+num2.imaginary;
+        return result;
+    }
+    ComplexNumber multiply(ComplexNumber num2){
+        ComplexNumber result;
+        result.real=this->real*num2.real;
+        result.imaginary=this->imaginary*num2.imaginary;
+        return result;
+    }
+};
