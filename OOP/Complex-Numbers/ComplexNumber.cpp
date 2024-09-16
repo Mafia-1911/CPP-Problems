@@ -47,3 +47,12 @@ int main(){
     A.display();
     B.display();
     ComplexNumber C;
+        C=A.add(B);
+        C.display();
+        ComplexNumber E(7,5);
+        ComplexNumber F(2,5);
+        E.display();
+        F.display();
+        Add(E,F);
+
+}
