@@ -1,5 +1,7 @@
 Methods and operators can be overloaded in c++ oop 
 
+Overloading of Methods is static polymorphism since we are doing that in compile time 
+Overloading of operators is dynamic polymorphism
 
 
 
