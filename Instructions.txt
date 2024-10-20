@@ -3,3 +3,4 @@ start Practising Phitron problems
 - Get back on track with phitron 
 - Start solving the assignment and memorizing the slides for 225 Course 
 - Do some Language oriented Tasks as well 
+- Add A readme page on your github Account
