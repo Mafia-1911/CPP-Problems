@@ -5,3 +5,5 @@ start Practising Phitron problems
 - Do some Language oriented Tasks as well 
 - Add A readme page on your github Account
 - Add Some Stars on your ACC
+- prepare for your midterms on phitron 
+
