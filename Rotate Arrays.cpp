@@ -1,5 +1,6 @@
 #include <iostream>
-#include <bits/stdc++.h>
+#include <bits/stdc++.h> 
+//importing the entire library
 using namespace std;
 
 int main() {
