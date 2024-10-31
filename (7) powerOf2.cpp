@@ -2,7 +2,7 @@
 using namespace std;
 
 int main()
-{hello
+
     //check is the number in among 2 to the power 
     int num;
     cin>>num;
