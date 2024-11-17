@@ -21,3 +21,12 @@ public:
             cout<<"Stack Overflow"<<endl;
         }
     }
+
+    void push2(int value){
+        if(top2-top1>1){
+            top2++;
+            stackArr[top2]=value;
+        }else{
+            cout<<"Stack Overflow"<<endl;
+        }
+    }
