@@ -30,3 +30,12 @@ public:
             cout<<"Stack Overflow"<<endl;
         }
     }
+    int pop1(){
+        if(top1>=0){
+           //popping is just changing the index
+           cout<<stackArr[top1];
+           top1--;
+        }
+    }
+
+};
