@@ -11,4 +11,4 @@ Whenever we mod by a number by n , the result is between 0-(n-1)
 day
 
 DID NSUPS Junior Competition Today 
-
+Did better than expected
