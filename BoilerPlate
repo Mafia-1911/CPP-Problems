@@ -1,9 +1,25 @@
 #include <iostream>
-#include <bits/c++.h>
-using namespaces std
-//Use this as per your convinience
+#include<bits/stdc++.h>
+using namespace std;
 
-int_32 main(){
-  cout<<"55"<<endl;
+int main(){
+
 return 0;
+}
+
+/////Equivalent Snippet
+"": {
+  "prefix": "",
+  "body": [
+    "#include <iostream>",
+    "#include<bits/stdc++.h>",
+    "using namespace std;",
+    "",
+    "int main(){",
+    "",
+    "return 0;",
+    "}",
+    ""
+  ],
+  "description": ""
 }
