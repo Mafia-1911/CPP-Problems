@@ -2,6 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 vector<vector<int>> ans;
+int vect;
 
 ///stl trick 
 // sort(input.begin(),input.end())
