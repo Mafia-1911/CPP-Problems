@@ -85,5 +85,13 @@ Student min;
 //1. Use the sort function and a custom compare function
     sort(nsu_students,nsu_students+size,cmp);
 //Sorting using a second parameter , ie if marks same sort using the roll
+    // Output of array of objects
+    cout<<"After Sort"<< " **********************";
+    for (int i = 0; i < size; ++i) {
+        cout<<endl<<"Name of Student["<<i<<"]: "<<nsu_students[i].name<<endl;
+        cout<<"Id of Student["<<i<<"]: "<<nsu_students[i].id<<endl;
+        cout<<"Marks of Student["<<i<<"]: "<<nsu_students[i].marks<<endl;
+    }
 
+}
 
