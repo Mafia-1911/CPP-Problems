@@ -38,3 +38,13 @@ bool crazyCMP(Student left,Student right){
         else return false ;
     }
 }
+
+int main(){
+    int size;
+    cout<<"Enter # of students? "<<endl;
+    cin>>size;
+    cin.ignore();
+
+//   int array[size];
+    Student nsu_students[size]; //Declaring Array of objects
+
