@@ -1,1 +1,22 @@
+#include <bits/stdc++.h>
+#include<iostream>
+using namespace std;
 
+
+class Student{
+public:
+    string name;
+    int id;
+    int marks;
+};
+/////Custom Compare Function
+//Return the condition you want thats it !
+//OR use if else -> true on the order you want , Since it works with two obejcts at a time
+bool cmp(Student left,Student right){
+    //    if(left.marks<right.marks){
+    //        return true;
+    //    }else if(left.marks > right.marks){
+    //        return false;
+    //    }
+    return left.marks<right.marks;
+}
