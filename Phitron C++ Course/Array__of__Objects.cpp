@@ -48,3 +48,28 @@ int main(){
 //   int array[size];
     Student nsu_students[size]; //Declaring Array of objects
 
+//Taking input of array of objects
+    for (int i = 0; i < size; ++i) {
+        cout<<"Enter name of Student["<<i<<"]: "<<endl;
+        getline(cin,nsu_students[i].name);
+        cout<<"Enter id of Student["<<i<<"]: "<<endl;
+        cin>>nsu_students[i].id;
+        cout<<"Enter marks of Student["<<i<<"]: "<<endl;
+        cin>>nsu_students[i].marks;
+        cin.ignore();//Number can not be inputted before the getline string
+        //Make sure you ignore before getline
+    }
+
+
+//Finding minimum marks inside the array: min(nsu_students[i],mn)
+//finding minimum/maximum based on a attribute of an Object
+Student min;
+    min.marks=INT_MAX;
+
+    for (int i = 0; i < size; ++i) {
+        if(nsu_students[i].marks < min.marks){
+            min=nsu_students[i];
+        }
+    }
+    cout<<endl<<"The minimum Student is: "<<min.name<<" ID:"<<min.id<<" Marks:"<<min.marks;
+
